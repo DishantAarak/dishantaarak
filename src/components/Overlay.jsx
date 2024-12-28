@@ -15,7 +15,7 @@ const Section = (props) => {
     >
       <div className="w-full sm:w-1/2 flex items-center justify-center">
         <div className="w-full sm:w-3/4">
-          <div className="bg-opacity-90 sm:bg-opacity-100 bg-white sm:bg-white shadow-lg rounded-lg px-8 py-12">
+          <div className="bg-opacity-40 text-white bg-gray-400 backdrop-blur-sm bg-clip-padding shadow-lg rounded-lg px-8 py-12">
             {props.children}
           </div>
         </div>
@@ -45,7 +45,7 @@ export const Overlay = () => {
           <h1 className="font-semibold font-serif text-2xl">
             Welcome to My Portfolio 🚀
           </h1>
-          <p className="text-gray-500">
+          <p className="text-slate-200">
             I’m Dishant Aarak, a passionate coder and dedicated teacher
             committed to making tech education engaging and impactful. With two
             years of teaching experience and expertise in Full Stack
@@ -102,7 +102,7 @@ export const Overlay = () => {
           <h1 className="font-semibold font-serif text-2xl">
             Let’s Work Together 🤝
           </h1>
-          <p className="text-gray-500">
+          <p className="text-slate-200">
             Interested in collaborating? Let’s create something amazing.
           </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
